@@ -54,6 +54,7 @@
   color: #4d4f4d !important;
 }
 
-.special-tags, .list-controls-inner, .vat-porto-info, .vat, .base-price, .category-unit-price, .item-bundle{
+.special-tags, .list-controls-inner, .vat-porto-info, .vat, .base-price,
+.category-unit-price, .item-bundle, .add-to-basket-lg-container{
   display:none !important;
 }
