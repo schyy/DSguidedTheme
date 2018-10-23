@@ -15,4 +15,3 @@ class ThemeServiceProvider extends ServiceProvider
 
   }
 }
-?>
