@@ -1,8 +1,4 @@
 @media screen and (max-width: 542px) {
-  #page-body{
-    margin-top:10% !important;
-  }
-
   .widget-item-list article{
     width: 90% !important;
     margin:0 auto !important;
@@ -45,7 +41,9 @@
   }
 }
 
-
+#page-body{
+  margin-top:10% !important;
+}
 
 
 
