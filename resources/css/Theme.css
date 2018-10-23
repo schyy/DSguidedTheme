@@ -1,9 +1,10 @@
 #page-body{
-  margin-top:5%;
+  margin-top:12% !important;
 }
 
 article{
   width: 50% !important;
+  margin:0 auto !important;
 }
 
 article .category-list-view-port{
@@ -11,13 +12,17 @@ article .category-list-view-port{
 }
 
 article .thumb-image{
-  width: 240px !important;
-  height: 240px !important;
-}
-article .thumb-inner img{
-  width: 240px !important;
-  height: 240px !important;
+  width: 10rem !important;
+  height: 16rem !important;
 }
 .owl-dots{
   display:none !important;
+}
+.cmp-product-thumb .thumb-content{
+  width: 100% !important;
+  margin-top:0.2rem !important;
+}
+.owl-stage-outer{
+  width: 50% !important;
+  margin: 0 auto !important;
 }
