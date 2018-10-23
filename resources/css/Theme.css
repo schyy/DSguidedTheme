@@ -1,4 +1,8 @@
 @media screen and (max-width: 542px) {
+  #page-body{
+    margin-top:10% !important;
+  }
+
   .widget-item-list article{
     width: 90% !important;
     margin:0 auto !important;
@@ -41,10 +45,10 @@
   }
 }
 
-#page-body{
-  margin-top:10% !important;
-}
 
+#page-body{
+  margin-top:4% !important;
+}
 
 
 .availability_1,.availability_2,.availability_3,.availability_4,.availability_5{
