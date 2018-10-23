@@ -12,17 +12,25 @@ article .category-list-view-port{
 }
 
 article .thumb-image{
-  width: 10rem !important;
-  height: 16rem !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 .owl-dots{
   display:none !important;
 }
 .cmp-product-thumb .thumb-content{
   width: 100% !important;
-  margin-top:0.2rem !important;
+  margin-top:5px !important;
 }
 
 .list-controls m-b-3{
-  display: none;
+  display: none !important;
+}
+
+.cmp-product-thumb .thumb-title{
+  min-height: 10px !important;
+}
+
+.product-list li{
+  width: 50% !important;
 }
