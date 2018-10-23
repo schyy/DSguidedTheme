@@ -1,9 +1,5 @@
-#page-body{
-  margin-top:12% !important;
-}
-
 .widget-item-list article{
-  width: 50% !important;
+  width: 90% !important;
   margin:0 auto !important;
 }
 
@@ -23,7 +19,7 @@ article .thumb-image{
   margin-top:5px !important;
 }
 
-.list-controls .m-b-3{
+.list-controls{
   display: none !important;
 }
 
@@ -41,9 +37,9 @@ article .thumb-image{
 
 
 .availability_1,.availability_2,.availability_3,.availability_4,.availability_5{
-  background-color:none !important;
+  background-color:transparent !important;
 }
 
-.special-tags, .vat-porto-info, .vat, .base-price{
+.special-tags, .vat-porto-info, .vat, .base-price, .category-unit-price{
   display:none !important;
 }
