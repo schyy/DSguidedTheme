@@ -34,3 +34,16 @@ article .thumb-image{
 .product-list li{
   width: 50% !important;
 }
+
+
+
+
+
+
+.availability_1,.availability_2,.availability_3,.availability_4,.availability_5{
+  background-color:none !important;
+}
+
+.special-tags, .vat-porto-info, .vat, .base-price{
+  display:none !important;
+}
