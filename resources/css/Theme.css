@@ -3,21 +3,21 @@
 }
 
 article{
-  width: 50%;
+  width: 50% !important;
 }
 
 article .category-list-view-port{
-  display:none;
+  display:none !important;
 }
 
 article .thumb-image{
-  width: 240px;
-  height: 240px;
+  width: 240px !important;
+  height: 240px !important;
 }
 article .thumb-inner img{
-  width: 240px;
-  height: 240px;
+  width: 240px !important;
+  height: 240px !important;
 }
 .owl-dots{
-  display:none;
+  display:none !important;
 }
