@@ -27,6 +27,13 @@ article .thumb-image{
   display: none !important;
 }
 
+.list-controls{
+  margin-bottom:0 !important;
+}
+.cmp-paginator{
+  margin-bottom:40px !important;
+}
+
 .cmp-product-thumb .thumb-title{
   min-height: 10px !important;
 }
@@ -42,7 +49,7 @@ article .thumb-image{
 
 .availability_1,.availability_2,.availability_3,.availability_4,.availability_5{
   background-color:transparent !important;
-  color: #222 !important;
+  color: #4d4f4d !important;
 }
 
 .special-tags, .list-controls-inner, .vat-porto-info, .vat, .base-price, .category-unit-pricev, .item-bundle{
