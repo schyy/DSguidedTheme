@@ -2,7 +2,7 @@
   margin-top:12% !important;
 }
 
-article{
+.widget-item-list article{
   width: 50% !important;
   margin:0 auto !important;
 }
@@ -23,7 +23,7 @@ article .thumb-image{
   margin-top:5px !important;
 }
 
-.list-controls m-b-3{
+.list-controls .m-b-3{
   display: none !important;
 }
 
