@@ -1,0 +1,18 @@
+{
+    "name"                  :"DSguidedTheme",
+    "description"           :"Theme",
+    "namespace"             :"Theme",
+    "author"                :"Benjamin Kosinski",
+    "keywords"              : ["container", "theme", "template"],
+    "type"                  :"theme",
+    "require"               : [],
+    "serviceProvider"       :"DSguidedTheme\\Providers\\ThemeServiceProvider",
+    "dataProviders"         :
+    [
+        {
+            "key"           :"DSguidedTheme\\Containers\\ThemeContainer",
+            "name"          :"DSguidedTheme",
+            "description"   :""
+        }
+    ]
+}
