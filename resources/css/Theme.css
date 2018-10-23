@@ -22,7 +22,7 @@ article .thumb-image{
   width: 100% !important;
   margin-top:0.2rem !important;
 }
-.owl-stage-outer{
-  width: 50% !important;
-  margin: 0 auto !important;
+
+.list-controls m-b-3{
+  display: none;
 }
