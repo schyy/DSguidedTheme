@@ -9,10 +9,15 @@
     "serviceProvider"       :"DSguidedTheme\\Providers\\ThemeServiceProvider",
     "dataProviders"         :
     [
-        {
-            "key"           :"DSguidedTheme\\Containers\\ThemeContainer",
-            "name"          :"DSguidedTheme",
-            "description"   :""
-        }
+      {
+          "key"           :"DSguidedTheme\\Containers\\ThemeContainer",
+          "name"          :"DSguidedThemeCSS",
+          "description"   :""
+      },
+      {
+          "key"           :"DSguidedTheme\\Containers\\ThemeContainerJS",
+          "name"          :"DSguidedThemeJS",
+          "description"   :""
+      }
     ]
 }

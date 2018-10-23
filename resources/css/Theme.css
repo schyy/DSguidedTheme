@@ -23,7 +23,7 @@ article .thumb-image{
   margin-top:5px !important;
 }
 
-.list-controls{
+.list-controls-inner{
   display: none !important;
 }
 
@@ -42,8 +42,9 @@ article .thumb-image{
 
 .availability_1,.availability_2,.availability_3,.availability_4,.availability_5{
   background-color:transparent !important;
+  color: #222 !important;
 }
 
-.special-tags, .vat-porto-info, .vat, .base-price, .category-unit-price{
+.special-tags, .list-controls-inner, .vat-porto-info, .vat, .base-price, .category-unit-pricev, .item-bundle{
   display:none !important;
 }
