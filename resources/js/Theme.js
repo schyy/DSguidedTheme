@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.price').html($('.price').html().replace("*","" ));
-  console.log("hello");
+  $(window).on('hashchange', function(e){
+    $('.price').html($('.price').html().replace("*","" ));
+  });
 });
-console.log("hello2");
