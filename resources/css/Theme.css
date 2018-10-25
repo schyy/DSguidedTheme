@@ -83,3 +83,7 @@
 .category-unit-price, .item-bundle, .add-to-basket-lg-container{
   display:none !important;
 }
+
+.cookiebarBackgroundColor{
+  background-color:#4d4f4d;
+}
