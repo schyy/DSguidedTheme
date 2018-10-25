@@ -90,6 +90,7 @@
   display:none !important;
 }
 
-.cookie-bar__wrapper{
+.cookie-bar__wrapper,
+.cookie-bar__wrapper button{
   background-color:#4d4f4d;
 }
