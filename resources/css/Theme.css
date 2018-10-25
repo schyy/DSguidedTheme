@@ -45,6 +45,33 @@
   }
 }
 
+@media screen and (max-width: 990px) {
+
+  article .category-list-view-port{
+    display:none !important;
+  }
+
+  .owl-dots{
+    display:none !important;
+  }
+
+  .list-controls-inner{
+    display: none !important;
+  }
+
+  .list-controls{
+    margin-bottom:0 !important;
+  }
+  .cmp-paginator{
+    margin-bottom:40px !important;
+  }
+
+  .cmp-product-thumb .thumb-title{
+    min-height: 10px !important;
+  }
+
+}
+
 
 #page-body{
   margin-top:4% !important;
@@ -54,6 +81,7 @@
 .availability_1,.availability_2,.availability_3,.availability_4,.availability_5{
   background-color:transparent !important;
   color: #4d4f4d !important;
+  padding: 0 !important;
 }
 
 .special-tags, .list-controls-inner, .vat-porto-info, .vat, .base-price,
