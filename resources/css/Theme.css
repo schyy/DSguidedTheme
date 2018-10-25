@@ -8,10 +8,6 @@
     display:none !important;
   }
 
-  .cmp-paginator{
-    margin-bottom:40px !important;
-  }
-
   .cmp-product-thumb .thumb-title{
     min-height: 10px !important;
   }
@@ -41,10 +37,6 @@
     margin-top:5px !important;
   }
 
-  .cmp-paginator{
-    margin-bottom:20px !important;
-  }
-
   .cmp-product-thumb .thumb-title{
     min-height: 10px !important;
   }
@@ -63,6 +55,10 @@
 
 .list-controls{
   margin-bottom:0 !important;
+}
+
+.cmp-paginator{
+  margin-bottom:20px !important;
 }
 
 .basket-preview-footer{
