@@ -11,6 +11,10 @@
   .cmp-product-thumb .thumb-title{
     min-height: 10px !important;
   }
+  .startseite-picture-container{
+    width:500px;
+    height:300px;
+  }
 
 }
 
@@ -44,6 +48,10 @@
   .product-list li{
     width: 50% !important;
     padding: 5px !important;
+  }
+  .startseite-picture-container{
+    width:317px;
+    height:190px;
   }
 }
 
