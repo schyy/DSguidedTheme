@@ -3,6 +3,6 @@ $(document).ready(function(){
 		$('.m-y-1').remove();
 	}
   if($('select option:disabled')){
-    $(this).value = $(this).value + " - Ausverkauft";
+    //$(this).value = $(this).value + " - Ausverkauft";
   }
 });
