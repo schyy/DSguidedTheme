@@ -8,7 +8,7 @@ $(document).ready(function(){
     //$('.col-xs-12.col-md-6.col-lg-4.variation-select > .input-unit > select').find("option:not(:disabled):first").prop('selected',true);
   }
   var disabledText, isSelected = false;
-  $('.variation-select > input-unit > select > option').each(function(){
+  $('.variation-select > .input-unit > select > option').each(function(){
     console.log(this.text);
     if(this.is(':disabled')){
       disabledText = this.text();
