@@ -1,14 +1,8 @@
 $(document).ready(function(){
-  if($('.col-xs-12 .col-md-6 .col-lg-4 .variation-select').length){
-    alert("select ist da");
-  }
-  if(!$('.col-xs-12 .col-md-6 .col-lg-4 .variation-select').length){
-    alert("select ist NICHT da");
-  }
-  $('.add-to-basket-container').remove().append("AUSVERKAUFT !");
+  alert("length = "$('.col-xs-12 .col-md-6 .col-lg-4 .variation-select').length);
 
-  if(!$('.variation-select').show()){
-		$('.add-to-basket-container').remove();
+  if(!$('.col-xs-12 .col-md-6 .col-lg-4 .variation-select').length){
+		$('.add-to-basket-container').remove().parent().append("AUSVERKAUFT");
 	}
   $('option:disabled').val().append("-ausverkauft");
 });
