@@ -12,7 +12,7 @@ $(document).ready(function(){
     console.log($(this).text);
     if($(this).is(':disabled')){
       disabledText = $(this).text();
-      $(this).text(disabledText += "-SOLD");
+      $(this).text(disabledText += "- Ausverkauft");
     }
     else if(!isSelected){
       $(this).val();
