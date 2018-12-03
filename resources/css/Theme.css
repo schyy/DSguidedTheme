@@ -1,10 +1,15 @@
-.variation-select > .input-unit > select option [disabled] ::after{
+select option [disabled] ::after{
   color: red;
   content:"-SOLD";
 }
 
-.variation-select > .input-unit > select option:disabled::after{
+.variation-select select option:disabled::after{
   content:"-SOLD";
+}
+
+.variation-select select option:disabled{
+  color: #777;
+  content:"-SOLDI";
 }
 
 .ausverkauft{
