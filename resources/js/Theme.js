@@ -1,13 +1,12 @@
 $(document).ready(function(){
   var lengthOfSelect = $('div.col-xs-12.col-md-6.col-lg-4.variation-select').length
-  alert("length = " + lengthOfSelect);
 
-  if(!$('.col-xs-12.col-md-6.col-lg-4.variation-select').length){
-		$('.add-to-basket-container').html("AUSVERKAUFT");
+  if($('.col-xs-12.col-md-6.col-lg-4.variation-select').length<1){
+		$('.add-to-basket-container').html("<div class='ausverkauft'>AUSVERKAUFT</div>");
 	}
   else{
-    $('.col-xs-12.col-md-6.col-lg-4.variation-select').find('select').nextAll('option:first:enabled').val();
+    $('.col-xs-12.col-md-6.col-lg-4.variation-select > .input-unit > select > option:not([disabled]):first').val();
   }
-  $('div.variation-select').find('select').nextAll('option:disabled').val().append("-ausverkauft");
+  $('.col-xs-12.col-md-6.col-lg-4.variation-select > .input-unit > select > option:disabled:first').nextAll('option:disabled').val().append("-ausverkauft");
   //$('option:disabled').val().append("-ausverkauft");
 });
