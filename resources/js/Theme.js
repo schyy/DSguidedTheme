@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  if(!$('.m-b-1').find('.variation-select')){
-		$('.m-y-1').remove();
+  if(!$('.variation-select').show()){
+		$('.add-to-basket-container').remove();
 	}
   $('option[disabled="disabled"]').val().append("-ausverkauft");
 });
