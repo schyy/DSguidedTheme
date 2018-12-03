@@ -1,3 +1,6 @@
+.variation-select > .input-select > select > option:disabled::after{
+  content:"-SOLD";
+}
 
 .ausverkauft{
   color: #d9534f !important;
