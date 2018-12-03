@@ -1,4 +1,5 @@
-.variation-select > .input-select > select > option:disabled::after{
+.variation-select > .input-select > select option [disabled] ::after{
+  color: red;
   content:"-SOLD";
 }
 
