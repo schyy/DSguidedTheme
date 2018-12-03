@@ -4,5 +4,5 @@ $(document).ready(function(){
 	}
   $('select option:disabled').value("ausverkauft");
     //$(this).value = $(this).value + " - Ausverkauft";
-  }
+  
 });
