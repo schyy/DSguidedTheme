@@ -1,8 +1,8 @@
 $(document).ready(function(){
-  if($('.variation-select').show()){
+  if($('.col-xs-12 .col-md-6 .col-lg-4 .variation-select').show()){
     alert("select ist da");
   }
-  if(!$('.variation-select').show()){
+  if(!$('.col-xs-12 .col-md-6 .col-lg-4 .variation-select').show()){
     alert("select ist NICHT da");
   }
   $('.add-to-basket-container').remove();
@@ -10,5 +10,5 @@ $(document).ready(function(){
   if(!$('.variation-select').show()){
 		$('.add-to-basket-container').remove();
 	}
-  $('option[disabled="disabled"]').val().append("-ausverkauft");
+  $('option:disabled').val().append("-ausverkauft");
 });
