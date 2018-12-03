@@ -5,8 +5,8 @@ $(document).ready(function(){
 		$('.add-to-basket-container').html("<div class='ausverkauft'>AUSVERKAUFT</div>");
 	}
   else{
-    $('.col-xs-12.col-md-6.col-lg-4.variation-select > .input-unit > select').children('option:enabled:first').eq(0).prop('selected',true);
+    $('.col-xs-12.col-md-6.col-lg-4.variation-select > .input-unit > select > option:enabled').eq(0).prop('selected',true);
   }
-  $('.col-xs-12.col-md-6.col-lg-4.variation-select > .input-unit > select').children('option:disabled').text().append("-SOLD");
+  $('.col-xs-12.col-md-6.col-lg-4.variation-select > .input-unit > select > option:disabled:first').text().append("-SOLD");
   //$('option:disabled').val().append("-ausverkauft");
 });
