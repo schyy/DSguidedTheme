@@ -9,13 +9,13 @@ $(document).ready(function(){
   }
   var disabledText, isSelected = false;
   $('.variation-select > .input-unit > select > option').each(function(){
-    console.log(this.text);
-    if(this.is(':disabled')){
-      disabledText = this.text();
-      this.text(disabledText += "-SOLD");
+    console.log($(this).text);
+    if($(this).is(':disabled')){
+      disabledText = $(this).text();
+      $(this).text(disabledText += "-SOLD");
     }
     else if(!isSelected){
-      this.val();
+      $(this).val();
       isSelected = true;
     }
   });
