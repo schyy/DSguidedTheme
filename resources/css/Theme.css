@@ -135,10 +135,19 @@ select option [disabled] ::after{
   text-align: center;
 }
 
+.categoryPicture img{
+  margin: 4%;
+  display: inline-block;
+  height: auto;
+  max-width: 1000px;
+  max-height: 1000px;
+}
+
 .categoryButton{
   position: absolute;
   right: 5%;
   bottom: 5%;
+  margin: 5% 10%;
   display: table-cell;
   font-family: 'Righteous', cursive;
   font-weight:bold;
