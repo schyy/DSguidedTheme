@@ -136,6 +136,9 @@ select option [disabled] ::after{
 }
 
 .categoryButton{
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
   display: table-cell;
   font-family: 'Righteous', cursive;
   font-weight:bold;
