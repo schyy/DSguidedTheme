@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Righteous|Voltaire';
+
 select option [disabled] ::after{
   color: red;
   content:"-SOLD";
@@ -9,7 +11,7 @@ select option [disabled] ::after{
 
 .variation-select select option:disabled{
   color: #777;
-  content:"-SOLDI";
+  content:"-SOLD";
 }
 
 .ausverkauft{
