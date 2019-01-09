@@ -145,4 +145,9 @@ select option [disabled] ::after{
   background-color: rgba(0,0,0,0.7);
   border: 1px solid #EEE;
   font-size:1.4em;
+  min-width: 160px;
+  max-width: 360px;
+  height: 10%;
+  padding: 5% 10%;
+  color: #fff;
 }
