@@ -161,5 +161,8 @@ select option [disabled] ::after{
   min-width: 140px;
   max-width: 260px;
   padding: 1% 2%;
+}
+
+.categoryButton a{
   color: #fff;
 }
