@@ -136,6 +136,7 @@ select option [disabled] ::after{
 }
 
 .categoryPicture img{
+  width: 100%;
   margin: 4%;
   display: inline-block;
   height: auto;
@@ -147,7 +148,7 @@ select option [disabled] ::after{
   position: absolute;
   right: 5%;
   bottom: 5%;
-  margin: 5% 10%;
+  margin: 1% 2%;
   display: table-cell;
   font-family: 'Righteous', cursive;
   font-weight:bold;
@@ -157,9 +158,8 @@ select option [disabled] ::after{
   background-color: rgba(0,0,0,0.7);
   border: 1px solid #EEE;
   font-size:1.4em;
-  min-width: 160px;
-  max-width: 360px;
-  height: 10%;
-  padding: 5% 10%;
+  min-width: 140px;
+  max-width: 260px;
+  padding: 1% 2%;
   color: #fff;
 }
