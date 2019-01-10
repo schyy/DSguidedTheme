@@ -151,7 +151,6 @@ select option [disabled] ::after{
   margin: 1% 2%;
   display: table-cell;
   font-family: 'Righteous', cursive;
-  font-weight:bold;
   vertical-align: middle;
   text-align: center;
   cursor: pointer;
